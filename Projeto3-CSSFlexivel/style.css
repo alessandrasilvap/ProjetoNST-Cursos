@@ -3,12 +3,12 @@
   background-color: #ccc;
   height: 500px;
   display: flex;
-  flex-direction: row; /*Define a direção dos itens. Opções de flex-direction: ROW, COLUMN, ROW-REVERSE E COLUMN-REVERSE*/
+  flex-direction: column; /*Define a direção dos itens. Opções de flex-direction: ROW, COLUMN, ROW-REVERSE E COLUMN-REVERSE*/
   flex-wrap: wrap; /*Define se vão ter quebra de linha. Opções de flex-wrap: NOWRAP, WRAP e WRAP-REVERSE*/
    /*flex-flow: row wrap-reserve; É uma forma resumida dos flex's acima*/
   justify-content: flex-start; /*Opções de justify-content: FLEX-START, FLEX-END, CENTER, SPACE-AROUND e SPACE-BETWEEN*/
   align-items: stretch; /*Opções de align-items: STRETCH, FLEX-START, FLEX-END, CENTER e BASELINE*/
-  align-content: stretch; /*Opções de align-content: STRETCH, FLEX-START, FLEX-END, CENTER, SPACE-BETWEEN e SPACE-AROUND*/
+  align-content: flex-start; /*Opções de align-content: STRETCH, FLEX-START, FLEX-END, CENTER, SPACE-BETWEEN e SPACE-AROUND*/
 }
 
 
@@ -18,11 +18,35 @@
   color: #fff;
   padding: 20px;
   margin: 5px;
-  width: 200px;
-  height: 50px;
+  /*width: 30px;*/
+  height: 30px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 20px;
 }
 
 
 .article-01 {
-  padding-top: 40px;
-  background-color: red;
+  /*order: 3;
+  flex-grow: 3;*/
+  flex-shrink: 3;
+}
+
+
+.article-02 {
+  /*order: 1;
+  align-self: center; Opções de align-self: STRETCH, AUTO, CENTER e BASELINE*/
+  flex-grow: 1;
+}
+
+
+.article-03 {
+  /*order: 2;*/
+  flex-grow: 1;
+}
+
+
+.article-04 {
+  /*order: 4;*/
+  flex-grow: 1;
+}
