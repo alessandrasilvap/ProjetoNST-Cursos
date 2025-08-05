@@ -38,3 +38,9 @@ p {
 
 
 /*Cabeçalho*/
+.cabecalho {
+  width: 100%;
+  float: left;
+  padding: 50px 8%;
+  background-color: #13c7ae;
+}
