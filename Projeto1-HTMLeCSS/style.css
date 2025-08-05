@@ -55,3 +55,23 @@ p {
 }
 
 
+.cabecalho form {
+  width: 30%;
+  float: right;
+}
+
+
+.cabecalho input[type="text"] {
+  width: 85%;
+  float: left;
+  padding: 15px 10px;
+}
+
+
+.cabecalho button {
+  width: 15%;
+  float: right;
+  padding: 15px 10px;
+  background-color: #0cae98;
+  color: #fff;
+}
