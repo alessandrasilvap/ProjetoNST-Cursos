@@ -101,3 +101,15 @@ p {
 .menu a:hover {
   color: #fff;
 }
+
+
+.social-icons {
+  float: right;
+}
+
+
+.social-icons a {
+  color: #fff;
+  float: left;
+  margin-left: 12px;
+}
