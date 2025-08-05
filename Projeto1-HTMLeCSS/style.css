@@ -76,3 +76,28 @@ p {
   color: #fff;
   cursor: pointer;
 }
+
+
+/*Menu*/
+.menu {
+  width: 100%;
+  float: left;
+  background-color: #111;
+  padding: 18px 8%;
+}
+
+
+.menu li {
+  float: left;
+}
+
+
+.menu li a {
+  color: #9d9d9d;
+  margin-right: 25px;
+}
+
+
+.menu a:hover {
+  color: #fff;
+}
