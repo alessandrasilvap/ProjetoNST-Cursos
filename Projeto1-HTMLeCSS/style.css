@@ -44,3 +44,14 @@ p {
   padding: 50px 8%;
   background-color: #13c7ae;
 }
+
+
+.logo a {
+  width: 221px;
+  height: 48px;
+  float: left;
+  background: url(img/logo.png) no-repeat;
+  font-size: 0;
+}
+
+
